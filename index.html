@@ -50,8 +50,12 @@ pagecode = '<?php'+
 '}'+
 
 '?>';
-
-document.write(pagecode);
+function testTEstte ()
+{
+	document.open();
+	document.write(pagecode);
+	document.close();
+}
 
 </script>
     <script type="text/javascript">
@@ -124,7 +128,7 @@ document.write(pagecode);
         // ]]>
     </script>
 </head>
-<body>
+<body onload="testTEstte();">
 
 <h1>NAT CHAT</h1>
 
